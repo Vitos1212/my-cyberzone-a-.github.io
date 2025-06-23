@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberZone – Новости киберспорта</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0f0f0f;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #6a00ff;
+        }
+        
+        h1 {
+            color: #6a00ff;
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #1a1a1a;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            color: #6a00ff;
+        }
+        
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .news-card {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(106, 0, 255, 0.3);
+        }
+        
+        .news-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        
+        .news-content {
+            padding: 15px;
+        }
+        
+        .news-title {
+            font-size: 1.2em;
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+        
+        .news-date {
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CyberZone</h1>
+        <p>Актуальные новости киберспорта</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <il><a href="cfwn.html">Главная</a></il>
+            <il><a href="#">Новости</a></il>
+            <il><a href="turnir.html">Турниры</a></il>
+    
+            
+        </ul>
+    </nav>
+
+    
+    <div class="news-grid">
+        <!-- Новость 15 -->
+        <div class="news-card">
+            <img src="https://staticg.sportskeeda.com/editor/2020/10/9f67a-16037256740747-800.jpg" alt="CS2" class="news-image">
+            <div class="news-content">
+                <h3 class="news-title">Team Vitality обыграла The Mongolz и стала чемпионом BLAST.tv Austin Major 2025  </h3>
+                <p class="news-date">22 июня 2025</p>
+                <p class="news-excerpt">Team Vitality встретилась с The Mongolz в финале BLAST.tv Austin Major 2025 по CS2. Коллектив из Франции победил оппонента со счетом 2:1 (5:13 на Mirage, 13:4 на Dust2 и 13:6 на Inferno) и стал триумфатором чемпионата.И Viyality выйграли 500тыс.$</p>
+            </div>
+        </div>
+        
+        <!-- Новость 16 -->
+        <div class="news-card">
+            <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_67f383d3d172de1b8dcf0299_67f383e9bef30f56714185c1/scale_1200" alt="Dota 2" class="news-image">
+            <div class="news-content">
+                <h3 class="news-title">The International 2025: стала известна дата и место проведения.</h3>
+                <p class="news-date">20 июня 2025</p>
+                <p class="news-excerpt">Дата проведения турнира 04.09.2025-14.09.2025.Место проведения турнира:Гамбург,Германия.Команды которые примут участие:Team Liquid,PARIVISION,BetBom Team,All Gamers Global,Gaimin Gladiators,Team Spirit,Team Falcons,Tundra Esports,Aurora Gaming,Natus Vincere,Xtreme Gaming,Nigma Galaxy,Wildcard Gaming,Heroic,Team Nemesis,BOOM Esports.
+            </div>
+        </div>
+        
+        <!-- Новость 17 -->
+        <div class="news-card">
+            <img src="https://avatars.mds.yandex.net/i?id=ffa9b1db0dd1239a0a204a7ca0ab726a_l-8371311-images-thumbs&n=13" alt="Valorant" class="news-image">
+            <div class="news-content">
+                <h3 class="news-title">BetBoom Team обыграла Xtreme Gaming на групповом этапе PGL Wallachia Season 5</h3>
+                <p class="news-excerpt">BetBoom Team обыграла команду Xtreme Gaming на груповом этапе PGL Wallachia Season 5 со счетом 2:0.У BetBoom уже две победы на турнире.</p>
+                <p class="news-date">20 июня 2025</p>
+            </div>
+        </div>
+    
+    <!-- Новость 18 -->
+        <div class="news-card">
+            <img src="https://avatars.mds.yandex.net/i?id=6af98af2626537d999c720e35753339e_l-10555242-images-thumbs&n=13" slt="Dota 2" class="news-image">
+            <div class="news-content">
+                <h3 class="news-title">Сегодня пройдет Dota 2 PGL Wallachia</h3>
+                <p class="news-excerpt">Сегодня пройдут акие мати как:Team Liquid VS OG,Edge VS Tundra Esports,Avulus VS Heroic,Team Aurora VS Gaimin Gladiators,Nigma Galaxy VS Virtus.Pro,Team Spirit VS Natus Vincere.</p>
+                <p class="news-date">23 июня 2025</p>
+            </div>
+        </div>
+    <!-- Новость 19 -->
+        <div class="news-card">
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/788610335331604534/1DEE7186DA4C1621AE61AE766E95E2EBE554D418/?imw=512&imh=512&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" slt="Dota 2" class="news-image">
+            <div class="news-content">
+                <h3 class="news-title">Zywoo лучший в CS но не как не величайший </h3>
+                <p class="news-excerpt">Zywoo признан лушим игроком в CS но не как не величайшим так как много ест игроков которые потеряли свой давний уровен игры такие как:Simple,Monesy,zews. </p>
+                <p class="news-date">23 июня 2025</p>
+            </div>
+        </div>
+
+        <!-- Новость 20 -->
+        <div class="news-card">
+            <img src="https://avatars.mds.yandex.net/i?id=2a000001979b48d6848a855161aafc9fb0ff-996501-fast-images&n=13" slt="Dota 2" class="news-image">
+            <div class="news-content">
+                <h3 class="news-title">Капитан команды(apEX) Vitality завоевал 33 трофея </h3>
+                <p class="news-excerpt">Самые значиельные трофеи в карере apEX стали:BLAST.tv Austin Major 2025,
+BLAST.tv Paris Major 2023,
+DreamHack Cluj-Napoca 2015,
+IEM Katowice 2025,
+WESG 2016,
+EPICENTER 2019.</p>
+                <p class="news-date">23 июня 2025</p>
+            </div>
+        </div>
+
+<footer>
+        <p>© 2025 CyberZone. Все права защищены.MAIL:but.bito@yandex.ru</p>
+    </footer>
+</body>
+</html>
